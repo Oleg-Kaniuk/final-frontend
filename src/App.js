@@ -16,7 +16,7 @@ function App() {
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
         <AuthLayout>
-          <BrowserRouter basename="/final-frontend">
+          <BrowserRouter>
             <Navbar />
             <UserRoutes />
           </BrowserRouter>
