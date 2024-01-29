@@ -4,7 +4,7 @@ import { getUser } from "../../../redux/auth/auth-selectors";
 
 import { logout } from "../../../redux/auth/auth-operations";
 
-import styles from "./navbar-user.module.scss";
+// import styles from "./navbar-user.module.scss";
 
 const NavbarUser = () => {
     const {name} = useSelector(getUser);

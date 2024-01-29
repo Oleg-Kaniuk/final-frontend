@@ -18,7 +18,7 @@ const MyMovies = () => {
 
     useEffect(()=> {
         dispatch(fetchMovies());
-    }, [])
+    }, [dispatch])
 
     const onAddMovie = (data) => {
         dispatch(addMovie(data));
